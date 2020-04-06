@@ -29,7 +29,7 @@ def instagram(insta):
 	pg.PAUSE = 0.5
 	pg.click(667, 131, 1, 0, 'left')
 	pg.PAUSE = 0.5
-	pg.typewrite('hey', 0.4)
+	pg.typewrite('Happie birthday', 0.4)
 	pg.PAUSE = 1
 	pg.moveTo(1088,668,1)
 	pg.click(1088, 688, 1, 0, 'left')
