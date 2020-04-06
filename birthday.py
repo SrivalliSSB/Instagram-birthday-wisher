@@ -5,9 +5,10 @@ from autonote import instagram
 Dict={} #We have declared a dictionary to store birthday.
 #Run loop till the user wants.
 while True:
-  print ("_____Birthday Adder_____\n")
+  print ("_____Birthday Wisher_____\n")
   print ("1.Show Birthday")
   print ("2.Add to the Birthday list")
+  
   print("3.Wish the birthday girl/boy on Instagram")
   print ("4.Exit")
   choice = int(input("Enter the choice\n"))
@@ -21,10 +22,11 @@ while True:
   elif choice == 2:  #If he want to add user data let him add in dictionary as key-value pair.
       name = input ("Enter Name")
       date = input ("Enter Birthdate")
+      insta= input("Enter the instagram handle")
       Dict[name] = date
       print ("Birthday Added")
   elif choice == 3:
-      instagram()
+      instagram(insta)
   elif choice == 4: #close program
       print("======Exiting program========")
       break

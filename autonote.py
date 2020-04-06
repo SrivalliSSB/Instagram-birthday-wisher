@@ -12,16 +12,17 @@
 # 	pg.PAUSE = 1
 # 	pg.press('enter')
 import pyautogui as pg
-def instagram():
+def instagram(insta):
 	pass
 	pg.press('win')
 	pg.typewrite('instagram', 0.3)
 	pg.press('enter')
-	pg.PAUSE = 2
+	pg.PAUSE = 5
 	pg.moveTo(676,58,1)
+	pg.PAUSE=2
 	pg.click(676, 58, 2, 1,'left')
 	pg.PAUSE = 0.5
-	pg.typewrite('vk_kad', 0.4)
+	pg.typewrite(insta, 0.4)
 	pg.PAUSE = 1
 	pg.press('enter')
 	pg.press('enter')
