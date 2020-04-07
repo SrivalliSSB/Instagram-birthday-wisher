@@ -15,11 +15,11 @@ while True:
   if choice == 1:
       if len(Dict) == 0: #If no data in dictionary
           print("Nothing to show")
-      else : #If data is there ask him whose data he want
+      else : #If data is there ask him whose data he wants
         name = input("Enter name to look for birthday")
         birthday = Dict.get(name,"No data found")
         print (birthday)
-  elif choice == 2:  #If he want to add user data let him add in dictionary as key-value pair.
+  elif choice == 2:  #Adding data
       name = input ("Enter Name")
       date = input ("Enter Birthdate")
       insta= input("Enter the instagram handle")
@@ -27,8 +27,8 @@ while True:
       print ("Birthday Added")
   elif choice == 3:
       instagram(insta)
-  elif choice == 4: #close program
+  elif choice == 4: #close the program
       print("======Exiting program========")
       break
-  else: #if he has chosen none of above input plese ask him to chose valid option
+  else: #if he has chosen none of above input please ask him to chose valid option
       print("Choose a valid option")
